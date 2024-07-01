@@ -1,0 +1,326 @@
+body{
+    font-family: Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+}
+header .logo {
+    font-size: 2em;
+    color: red;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+header .user-actions a {
+    margin-left: 10px;
+}
+
+header .user-actions img {
+    width: 20px;
+    height: 20px;
+}
+
+.banner {
+    display: flex;
+    background-color: #ededed;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.banner-text {
+    max-width: 500px;
+}
+
+.banner-text h1 {
+    font-size: 2.5em;
+    color: #ffcc00;
+    margin: 0;
+}
+
+.banner-text p {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.banner-images img {
+    width: 200px;
+    margin: 0 10px;
+}
+
+.breadcrumbs {
+    margin: 20px;
+    font-size: 0.9em;
+}
+
+.breadcrumbs a {
+    text-decoration: none;
+    color: #333;
+}
+
+.products {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.sidebar h3 {
+    margin-top: 0;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.product-list {
+    flex: 3;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-list .sorting {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.product-list .product {
+    background-color: white;
+    padding: 20px;
+    width: calc(25% - 20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product-list .product img {
+    width: 100%;
+    height: auto;
+}
+
+.product-list .product h4 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.product-list .product p {
+    margin: 5px 0;
+    color: #555;
+}
+
+
+
+.blog-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.blog-cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.category {
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 5px;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 14px;
+    color: #555;
+}
+
+
+
+.contact {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-form,
+.contact-details {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 45%;
+}
+
+.contact-form h2 {
+    margin-top: 0;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: darkred;
+}
+
+.contact-details p {
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+.contact-details strong {
+    font-size: 1.2em;
+}
+
+.contact-details a {
+    color: red;
+    text-decoration: none;
+}
+
+footer{
+    display: flex;
+    background-color: #8b8787;
+    color: white;
+    justify-content: space-between;
+    padding: 10px;
+}
+footer.footer-logo{
+    flex: 1;
+    margin-bottom: 15px;
+
+
+}
+.footer-logo img{
+    width: 150px;
+    
+}
+footer.footer-info{
+    font-size : 0.9em;
+    flex: 2;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+.social-icons a{
+    flex:1;
+
+    margin: 0 10px;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.social-icons img{
+    width: 20px;
+    height:20px;
+    margin: 0 10px;
+}
